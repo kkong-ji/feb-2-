@@ -1,0 +1,49 @@
+// --disable-web-security --user-data-dir="c:\chrome"
+[
+	{
+		"id":1,
+		"name":"홍길동",
+		"age":31,
+		"address":"서울시 서초구 양재동 OO물산 307-12 양재로 111",
+		"gender":"Male",
+		"job":"Human Resource",
+		"hobby":"영화보기"
+	},
+	{
+		"id":2,
+		"name":"이순신",
+		"age":28,
+		"address":"서울시 성북구 성북동 XX전자 57-7 성북로 23",
+		"gender":"Male",
+		"job":"Programmer",
+		"hobby":"음악감상"
+	},
+	{
+		"id":3,
+		"name":"강감찬",
+		"age":30,
+		"address":"서울시 강서구 강서동 ㅁㅁ식품 46-550 강서 5",
+		"gender":"Male",
+		"job":"Business manager",
+		"hobby":"축구"
+	},
+	{
+		"id":4,
+		"name":"을지문덕",
+		"age":29,
+		"address":"서울시 서대문구 서대문동 ㅍㅍ화학 50-75 양재로 10",
+		"gender":"Male",
+		"job":"accounting manager",
+		"hobby":"등산"
+	},
+	{
+		"id":5,
+		"name":"김유신",
+		"age":34,
+		"address":"서울시 영등포구 영등포동 OO테크 89-33 양재로 47",
+		"gender":"Male",
+		"job":"CEO",
+		"hobby":"게임"
+	}
+
+]
