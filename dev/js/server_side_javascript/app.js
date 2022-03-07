@@ -4,7 +4,14 @@ var app = express();
 app.locals.pretty = true;
 app.set('view engine', 'pug');
 app.use(express.static('public'));
-
+app.get('/form', function(req, res) {
+  res.render('form');
+});
+app.get('/form_receiver', function(req, res) {
+  var title = req.query.title;
+  var description = req.query.description;
+  res.send(title+','+description);
+});
 app.get('/topic/:id', function(req, res) {
   var topics = [
     'Javascript is....',
